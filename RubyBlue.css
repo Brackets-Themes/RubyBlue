@@ -32,6 +32,7 @@
 /* TODO */
 .CodeMirror-activeline-background {
     outline: 2px solid #dddddd;
+    background: #173047 !important; /*Testing may be removed*/
 }
 
 .CodeMirror .cm-matchhighlight {
