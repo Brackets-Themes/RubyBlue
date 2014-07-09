@@ -17,15 +17,10 @@
     color: #fff;
     background-color: #1f4661;
 }
-.CodeMirror .CodeMirror-linebackground {
-    outline: 2px solid #dddddd;
-}
+
 .CodeMirror-activeline-background,
 .CodeMirror-activeline .CodeMirror-gutter-elt {
-    background: transparent !important;
-}
-.CodeMirror-activeline-background {
-    outline: 2px solid #dddddd;
+    background: #173047 !important;
 }
 .CodeMirror .cm-matchhighlight {
     background-color: #F0F;
@@ -94,4 +89,10 @@
 }
 .cm-error {
     color: #dc322f;
+}
+.CodeMirror-nonmatchingbracket {
+color: #f22 !important;
+}
+.CodeMirror-nonmatchingbracket {
+color: #f22;
 }
