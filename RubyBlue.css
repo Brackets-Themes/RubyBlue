@@ -4,13 +4,7 @@
 /*Set Background*/
 .CodeMirror-scroll {
     background: #112435;
-    color: white;
-}
-/* TODO */
-
-.CodeMirror .CodeMirror-scroll {
-    background-color: #fefefe;
-    color: black;
+    color: #fff;
 }
 /* TODO */
 
@@ -86,7 +80,7 @@
 .cm-error {
     color: #AF2018;
 }
-.doctype-less .cm-property,
+/*.doctype-less .cm-property,
 .doctype-css .cm-property {
     color: red !important;
-}
+}*/
