@@ -10,15 +10,10 @@
 .CodeMirror .CodeMirror-gutters {
     background-color: #fefefe;
 }
-/* TODO */
+
 .CodeMirror .CodeMirror-linenumber {
-    color: #0E97A1;
-    background-color: #fefefe;
-}
-/* TODO */
-.CodeMirror .CodeMirror-matchingbracket {
-    color: black;
-    background-color: #dedede;
+    color: #fff;
+    background-color: #1f4661;
 }
 
 .CodeMirror .CodeMirror-linebackground {
