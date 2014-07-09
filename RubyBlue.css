@@ -1,43 +1,46 @@
 /*  Ruby Blue Theme for Stand alone theme extension.
     Based off of Visual Studio.
 */
-/* TODO */
-.CodeMirror .CodeMirror-scroll {
-    background-color: #fefefe;
-    color:black;
+/*Set Background*/
+.CodeMirror {
+    background: #112435;
+    color: white;
 }
 /* TODO */
+
+.CodeMirror .CodeMirror-scroll {
+    background-color: #fefefe;
+    color: black;
+}
+/* TODO */
+
 .CodeMirror .CodeMirror-gutters {
     background: #1F4661;
     border-right: 7px solid #3E7087;
 }
-
 .CodeMirror .CodeMirror-linenumber {
     color: #fff;
     background-color: #1f4661;
 }
-
 .CodeMirror .CodeMirror-linebackground {
     outline: 2px solid #dddddd;
 }
-
 .CodeMirror-activeline-background,
 .CodeMirror-activeline .CodeMirror-gutter-elt {
     background: transparent !important;
 }
-
 .CodeMirror-activeline-background {
     outline: 2px solid #dddddd;
 }
-
 .CodeMirror .cm-matchhighlight {
-    background-color: #F0F; /*Not sure about this one*/
+    background-color: #F0F;
+    /*Not sure about this one*/
 }
-
 .CodeMirror .CodeMirror-selectedtext {
     background-color: #38566F !important;
 }
 /*Code Mirror Styles*/
+
 .cm-comment {
     color: #999;
     font-style: italic;
@@ -83,8 +86,7 @@
 .cm-error {
     color: #AF2018;
 }
-
 .doctype-less .cm-property,
-.doctype-css  .cm-property {
+.doctype-css .cm-property {
     color: red !important;
 }
