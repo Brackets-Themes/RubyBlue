@@ -1,0 +1,60 @@
+/*  Ruby Blue Theme for Stand alone theme extension.
+    Based off of Visual Studio.
+*/
+.CodeMirror .CodeMirror-scroll {
+    background-color: #fefefe;
+    color:black;
+}
+
+.CodeMirror .CodeMirror-gutters {
+    background-color: #fefefe;
+}
+
+.CodeMirror .CodeMirror-linenumber {
+    color: #0E97A1;
+    background-color: #fefefe;
+}
+
+.CodeMirror .CodeMirror-matchingbracket {
+    color: black;
+    background-color: #dedede;
+}
+
+.CodeMirror .CodeMirror-linebackground {
+    outline: 2px solid #dddddd;
+}
+
+.CodeMirror-activeline-background,
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: transparent !important;
+}
+
+.CodeMirror-activeline-background {
+    outline: 2px solid #dddddd;
+}
+
+.CodeMirror .cm-matchhighlight {
+    background-color: yellow;
+}
+
+.CodeMirror .CodeMirror-selectedtext {
+    background-color: #ADD6FF !important;
+}
+
+.CodeMirror .cm-atom { color: blue; }
+.CodeMirror .cm-qualifier { color: #800000; }
+.CodeMirror .cm-def { color: black; }
+.CodeMirror .cm-keyword { color: blue; }
+.CodeMirror .cm-comment { color: green; }
+.CodeMirror .cm-string {color: #800000;}
+.CodeMirror .cm-string-2 {color: #800000;}
+.CodeMirror .cm-variable { color: black; }
+.CodeMirror .cm-variable-2 { color: black; }
+.CodeMirror .cm-tag { color: #800000; }
+.CodeMirror .cm-attribute { color: red; }
+.CodeMirror .cm-property { color: black; }
+
+.doctype-less .cm-property,
+.doctype-css  .cm-property {
+    color: red !important;
+}
