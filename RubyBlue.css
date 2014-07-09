@@ -6,7 +6,9 @@
     background: #112435;
     color: #fff;
 }
-
+.CodeMirror-cursor {
+    border-left: 1px solid white !important;
+}
 .CodeMirror .CodeMirror-gutters {
     background: #1F4661;
     border-right: 7px solid #3E7087;
