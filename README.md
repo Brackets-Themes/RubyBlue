@@ -1,4 +1,4 @@
-Visual Studio
+Ruby Blue
 ==========================
 
-![visualstudio ss](https://github.com/brackets-themes/visualstudio/raw/master/screenshot.png)
+* More Info Coming Soon!

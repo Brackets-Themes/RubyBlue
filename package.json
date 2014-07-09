@@ -4,10 +4,10 @@
     "description": "Ruby Blue Theme for Brackets",
     "version": "0.0.1",
     "author": "Eric Johnson <wormeyman@gmail.com>",
-    "homepage": "https://github.com/Brackets-Themes/RubyBlue",
+    "homepage": "https://github.com/wormeyman/RubyBlue/",
     "repository": {
         "type": "git",
-        "url": "git://github.com/Brackets-Themes/RubyBlue.git"
+        "url": "git://github.com/wormeyman/RubyBlue.git"
     },
     "engines": {
         "brackets": ">=0.41.0"
