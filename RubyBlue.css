@@ -6,7 +6,6 @@
     background: #112435;
     color: #fff;
 }
-/* TODO */
 
 .CodeMirror .CodeMirror-gutters {
     background: #1F4661;
@@ -72,6 +71,7 @@
 }
 .CodeMirror-matchingbracket {
     color: #F0F !important;
+    background: none;
 }
 .cm-builtin,
 .cm-s-rubyblue span.cm-special {
@@ -83,4 +83,13 @@
 .doctype-less .cm-property,
 .doctype-css .cm-property {
     color: #fff !important;
+}
+.cm-qualifier {
+    color: #fff;
+}
+.cm-tag {
+    color:#7BD827;
+}
+.cm-error {
+    color: #dc322f;
 }
