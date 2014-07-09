@@ -80,7 +80,7 @@
 .cm-error {
     color: #AF2018;
 }
-/*.doctype-less .cm-property,
+.doctype-less .cm-property,
 .doctype-css .cm-property {
-    color: red !important;
-}*/
+    color: #fff !important;
+}
