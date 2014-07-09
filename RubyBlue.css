@@ -34,7 +34,7 @@
 }
 
 .CodeMirror .cm-matchhighlight {
-    background-color: yellow;
+    background-color: #F0F; /*Not sure about this one*/
 }
 
 .CodeMirror .CodeMirror-selectedtext {
