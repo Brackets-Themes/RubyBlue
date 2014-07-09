@@ -8,7 +8,8 @@
 }
 /* TODO */
 .CodeMirror .CodeMirror-gutters {
-    background-color: #fefefe;
+    background: #1F4661;
+    border-right: 7px solid #3E7087;
 }
 
 .CodeMirror .CodeMirror-linenumber {
