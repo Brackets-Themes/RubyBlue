@@ -2,7 +2,7 @@
     Based off of Visual Studio.
 */
 /*Set Background*/
-.CodeMirror {
+.CodeMirror-scroll {
     background: #112435;
     color: white;
 }
