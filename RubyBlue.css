@@ -40,19 +40,20 @@
 .CodeMirror .CodeMirror-selectedtext {
     background-color: #ADD6FF !important;
 }
-
-.CodeMirror .cm-atom { color: blue; }
-.CodeMirror .cm-qualifier { color: #800000; }
-.CodeMirror .cm-def { color: black; }
-.CodeMirror .cm-keyword { color: blue; }
-.CodeMirror .cm-comment { color: green; }
-.CodeMirror .cm-string {color: #800000;}
-.CodeMirror .cm-string-2 {color: #800000;}
-.CodeMirror .cm-variable { color: black; }
-.CodeMirror .cm-variable-2 { color: black; }
-.CodeMirror .cm-tag { color: #800000; }
-.CodeMirror .cm-attribute { color: red; }
-.CodeMirror .cm-property { color: black; }
+/*Code Mirror Styles*/
+.cm-comment { color: #999; font-style:italic; line-height: 1em; }
+.cm-atom { color: #F4C20B; }
+.cm-number, .cm-s-rubyblue span.cm-attribute { color: #82C6E0; }
+.cm-keyword { color: #F0F; }
+.cm-string { color: #F08047; }
+.cm-meta { color: #F0F; }
+.cm-variable-2, .cm-s-rubyblue span.cm-tag { color: #7BD827; }
+.cm-variable-3, .cm-s-rubyblue span.cm-def { color: white; }
+.cm-bracket { color: #F0F; }
+.cm-link { color: #F4C20B; }
+.CodeMirror-matchingbracket { color:#F0F !important; }
+.cm-builtin, .cm-s-rubyblue span.cm-special { color: #FF9D00; }
+.cm-error { color: #AF2018; }
 
 .doctype-less .cm-property,
 .doctype-css  .cm-property {
