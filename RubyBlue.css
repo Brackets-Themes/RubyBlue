@@ -20,11 +20,11 @@
     color: black;
     background-color: #dedede;
 }
-/* TODO */
+
 .CodeMirror .CodeMirror-linebackground {
     outline: 2px solid #dddddd;
 }
-/* TODO */
+
 .CodeMirror-activeline-background,
 .CodeMirror-activeline .CodeMirror-gutter-elt {
     background: transparent !important;
