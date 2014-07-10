@@ -12,6 +12,6 @@
     "engines": {
         "brackets": ">=0.41.0"
     },
-    "theme": "RubyBlue.css",
+    "theme": "RubyBlueTheme.less",
     "screenshot": "screenshot.png"
 }
