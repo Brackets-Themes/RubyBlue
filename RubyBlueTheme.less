@@ -57,7 +57,7 @@
 @foreground: #fff;/*Customized*/
 @comment: #999;
 @orange: #d89333;
-@blue: #6c9ef8;
+@blue: #3e7087;
 @purple: #b77fdb;
 @green: #85a300;
 @red: #dc322f;
@@ -156,7 +156,12 @@
 
 .CodeMirror .CodeMirror-gutters {
     // gutter border:
-    // border-right: 1px solid rgba(255, 255, 255, 0.03);
+    border-right: 7px solid @blue;
+}
+
+.CodeMirror-linenumbers{
+    // gutter border:
+    color: @foreground;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
