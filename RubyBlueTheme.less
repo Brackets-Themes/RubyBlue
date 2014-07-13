@@ -155,15 +155,16 @@
 }
 
 .CodeMirror .CodeMirror-gutters {
-    // gutter border:
     border-right: 7px solid @blue;
 }
 
 .CodeMirror-linenumber{
-    // gutter border:
     color: @foreground;
 }
-
+.CodeMirror-lines {
+    padding: 15px 0 0 7px;
+    pointer-events: none;
+}
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
     color: @comment;
 }
