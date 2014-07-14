@@ -52,16 +52,15 @@
 @background: #112435;
 @foreground: #fff;
 @comment: #999;
-@orange: #F08047;
-@blue: #3e7087;
-@darkblue: #16314a;
-@purple: #b77fdb;
-@lightblue: #82C6E0;
-@red: #dc322f;
-@violet: #6c71c4;
-@pink: #d85896;
-@magenta: #f0f;
-@yellow: #F4C20B;
+@rb-orange: #F08047;
+@rb-blue: #3e7087;
+@rb-darkblue: #16314a;
+@rb-lightblue: #82C6E0;
+@rb-red: #dc322f;
+@rb-violet: #6c71c4;
+@rb-pink: #d85896;
+@rb-magenta: #f0f;
+@rb-yellow: #F4C20B;
 @brightgreen: #7BD827;
 @white: #fff;
 
@@ -91,9 +90,9 @@
 /* Code Styling */
 
 /* code accent colors */
-@accent-keyword: @magenta;
-@accent-atom: @yellow;
-@accent-number: @lightblue;
+@accent-keyword: @rb-magenta;
+@accent-atom: @rb-yellow;
+@accent-number: @rb-lightblue;
 @accent-def: @white;
 @accent-variable: @foreground;
 @accent-variable-2: @brightgreen;
@@ -101,22 +100,22 @@
 @accent-property: @white;
 @accent-operator: @foreground;
 @accent-comment: @comment;
-@accent-string: @orange;
-@accent-string-2: @orange;
-@accent-meta: @magenta;
-@accent-error: @red;
+@accent-string: @rb-orange;
+@accent-string-2: @rb-orange;
+@accent-meta: @rb-magenta;
+@accent-error: @rb-red;
 @accent-qualifier: @white;
 @accent-builtin: #FF9D00;
-@accent-bracket: @magenta;
+@accent-bracket: @rb-magenta;
 @accent-tag: @brightgreen;
-@accent-attribute: @lightblue;
-@accent-header: @pink;
-@accent-quote: @blue;
-@accent-hr: @orange;
-@accent-link: @yellow;
-@accent-rangeinfo: @violet;
-@accent-minus: @red;
-@accent-plus: @lightblue;
+@accent-attribute: @rb-lightblue;
+@accent-header: @rb-pink;
+@accent-quote: @rb-blue;
+@accent-hr: @rb-orange;
+@accent-link: @rb-yellow;
+@accent-rangeinfo: @rb-violet;
+@accent-minus: @rb-red;
+@accent-plus: @rb-lightblue;
 
 /* inline editor colors */
 @inline-background-color-1: lighten(@background, @bc-color-step-size);
@@ -136,7 +135,7 @@
 @matching-bracket: lighten(@background, 30%);
 
 /* Status Bar Colors */
-@status-bar-background-color: @darkblue;
+@status-bar-background-color: @rb-darkblue;
 @status-bar-border: rgba(255, 255, 255, 0.08);
 @status-bar-text-color: @foreground;
 @status-bar-quiet-text-color: #666;
@@ -146,7 +145,7 @@
 
 .code-cursor() {
     // to make a block cursor, use something like this:
-    // background-color: fadeout(@blue, 50%);
+    // background-color: fadeout(@rb-blue, 50%);
     // border: none !important;
 
     // to make an I-cursor, use something like this:
@@ -155,7 +154,7 @@
 
 .CodeMirror .CodeMirror-gutters {
     background: #1F4661;
-    border-right: 7px solid @blue;
+    border-right: 7px solid @rb-blue;
 }
 
 .CodeMirror-linenumber{
