@@ -1,4 +1,6 @@
-Ruby Blue
+Ruby Blue Brackets Theme
 ==========================
 
-* More Info Coming Soon!
+* This is a dark, high contrast theme based on the color blue.
+
+
