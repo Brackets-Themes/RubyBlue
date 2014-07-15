@@ -6,13 +6,13 @@
     "author": "Eric Johnson <wormeyman@gmail.com>",
     "homepage": "https://github.com/Brackets-Themes/RubyBlue",
     "keywords": [
-       "extension",
-       "brackets",
-       "ruby",
-       "blue",
-       "dark",
-       "theme"
-   ],
+        "extension",
+        "brackets",
+        "ruby",
+        "blue",
+        "dark",
+        "theme"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/Brackets-Themes/RubyBlue.git"
