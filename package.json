@@ -7,7 +7,7 @@
     "homepage": "https://github.com/wormeyman/",
     "repository": {
         "type": "git",
-        "url": "git://github.com/Brackets-Themes/RubyBlueBracketsTheme"
+        "url": "git://github.com/Brackets-Themes/RubyBlue"
     },
     "engines": {
         "brackets": ">=0.42.0"
