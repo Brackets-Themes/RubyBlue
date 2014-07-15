@@ -2,9 +2,9 @@
     "title": "Ruby Blue",
     "name": "ruby-blue",
     "description": "Ruby Blue Theme for Brackets",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Eric Johnson <wormeyman@gmail.com>",
-    "homepage": "https://github.com/wormeyman/",
+    "homepage": "https://github.com/Brackets-Themes/RubyBlue",
     "keywords": [
        "extension",
        "brackets",
