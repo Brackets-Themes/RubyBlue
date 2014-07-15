@@ -24,6 +24,8 @@ Troubleshooting
 
 Contributing
 ==========================
+* Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) if you would like to help.
+
 <hr>
 
 ![RubyBlue ss](RubyBlueThemeScreenshot.png)
