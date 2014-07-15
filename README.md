@@ -1,7 +1,7 @@
 Ruby Blue Brackets Theme
 ==========================
 
-* This is a dark, high contrast theme based on the color blue.
+* Ruby Blue is a dark, high contrast theme, that is easy to read.
 
 How to install
 ==========================
@@ -26,6 +26,7 @@ Contributing
 ==========================
 * Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) if you would like to help.
 
-<hr>
+Screenshot
+==========================
 
 ![RubyBlue ss](RubyBlueThemeScreenshot.png)
