@@ -5,9 +5,17 @@
     "version": "1.0.0",
     "author": "Eric Johnson <wormeyman@gmail.com>",
     "homepage": "https://github.com/wormeyman/",
+    "keywords": [
+       "extension",
+       "brackets",
+       "ruby",
+       "blue",
+       "dark",
+       "theme"
+   ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/Brackets-Themes/RubyBlue"
+        "url": "https://github.com/Brackets-Themes/RubyBlue.git"
     },
     "engines": {
         "brackets": ">=0.42.0"
