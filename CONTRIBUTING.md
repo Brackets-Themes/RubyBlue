@@ -1,4 +1,4 @@
-###We reccommend the following brackets extensions to aid in debugging:
+###We recommend the following Brackets extensions to aid in debugging:
 
 * https://github.com/cfjedimaster/brackets-csslint
 * https://github.com/dsbonev/whitespace-normalizer
