@@ -1,4 +1,5 @@
-<div style="border: 2px solid #05e;background: #a4c0f4;padding: 10px;text-align: center;width: auto;">We are aware that Ruby Blue does not currenly work in sprint 42 due to some recent changes a fix will be available shorthly.</div>
+# We are aware that Ruby Blue does not currenly work in sprint 42 due to some recent changes, a fix will be available shorthly.
+
 Ruby Blue Brackets Theme
 ==========================
 
