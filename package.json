@@ -21,7 +21,7 @@
         "brackets": ">=0.42.0"
     },
     "theme": {
-        "file": "RubyBlueTheme.less",
+        "file": "RubyBlueTheme.css",
         "dark": true
     },
     "screenshot": "RubyBlueThemeScreenshot.png"
