@@ -24,32 +24,49 @@
     background-color: #112435;
     color: #fff;
 }
+.cm-meta                      { color: #F0F; }
+.cm-comment                   { color: #999; }
+.cm-atom                      { color: #F4C20B; }
+.cm-number                    { color: #82C6E0; }
+.cm-attribute                 { color: #66D9EF; }
+.cm-property                  { color: #66D9EF; }
+.cm-keyword                   { color: #f0f; }
+.cm-string                    { color: #F08047; }
+.cm-string.cm-property        { color: #F8F8F2; }
+.cm-variable                  { color: #fff}
+.cm-variable-2                { color: #7BD827; }
+.cm-variable-3                { color: #fff}
+.cm-qualifier                 { color: #fff}
+.cm-def                       { color: #fff}
+.cm-bracket                   { color: #f0f}
+.cm-operator                  { color: #fff}
+.cm-tag                       { color: #7BD827; }
+.cm-link                      { color: #F4C20B; }
+.cm-error                     { color: #AF2018 !important; } /*Not sure why this !important has to be here.*/
+.cm-builtin                   { color: #FF9D00; }
+.cm-special                   { color: #FF9D00; }
 
-/* CodeMirror styles \Brackets\www\thirdparty\CodeMirror2\theme\rubyblue.css */
-.CodeMirror .CodeMirror-selected { background: #38566F !important; }
-.CodeMirror .CodeMirror-gutters { background: #1F4661; border-right: 7px solid #3E7087; }
-.CodeMirror .CodeMirror-linenumber { color: white; }
-.CodeMirror .CodeMirror-cursor { border-left: 1px solid white !important; }
-
-.CodeMirror .cm-comment { color: #999; font-style:italic; line-height: 1em; }
-.CodeMirror .cm-atom { color: #F4C20B; }
-.CodeMirror .cm-number, .CodeMirror span.cm-attribute { color: #82C6E0; }
-.CodeMirror .cm-keyword { color: #F0F; }
-.CodeMirror .cm-string { color: #F08047; }
-.CodeMirror .cm-meta { color: #F0F; }
-.CodeMirror .cm-variable-2, .CodeMirror span.cm-tag { color: #7BD827; }
-.CodeMirror .cm-qualifier, .CodeMirror .cm-operator, .CodeMirror .cm-variable-3, .CodeMirror .cm-variable, .CodeMirror .cm-def { color: white; }
-.CodeMirror .cm-bracket { color: #F0F; }
-.CodeMirror .cm-link { color: #F4C20B; }
-.CodeMirror .CodeMirror-matchingbracket { color:#F0F !important; background-color: transparent; }
-.CodeMirror .cm-builtin, .CodeMirror span.cm-special { color: #FF9D00; }
-.CodeMirror .cm-error { color: #AF2018; }
-
-.CodeMirror .CodeMirror-activeline-background {background: #173047 !important;}
-
-.CodeMirror .cm-property {
+.CodeMirror .CodeMirror-selected {
+    background: #38566F !important;
+}
+.CodeMirror .CodeMirror-gutters {
+    background: #1F4661;
+    border-right: 7px solid #3E7087;
+}
+.CodeMirror .CodeMirror-linenumber {
     color: white;
 }
+.CodeMirror .CodeMirror-cursor {
+    border-left: 1px solid white !important;
+}
+.CodeMirror .CodeMirror-matchingbracket {
+    color: #F0F !important;
+    background-color: transparent;
+}
+.CodeMirror .CodeMirror-activeline-background {
+    background: #173047 !important;
+}
+
 
 /* Code Styling */
 
