@@ -24,6 +24,7 @@
     background-color: #112435;
     color: #fff;
 }
+
 /* CodeMirror styles \Brackets\www\thirdparty\CodeMirror2\theme\rubyblue.css */
 .CodeMirror .CodeMirror-selected { background: #38566F !important; }
 .CodeMirror .CodeMirror-gutters { background: #1F4661; border-right: 7px solid #3E7087; }
@@ -32,16 +33,16 @@
 
 .CodeMirror .cm-comment { color: #999; font-style:italic; line-height: 1em; }
 .CodeMirror .cm-atom { color: #F4C20B; }
-.CodeMirror .cm-number, .cm-s-rubyblue span.cm-attribute { color: #82C6E0; }
+.CodeMirror .cm-number, .CodeMirror span.cm-attribute { color: #82C6E0; }
 .CodeMirror .cm-keyword { color: #F0F; }
 .CodeMirror .cm-string { color: #F08047; }
 .CodeMirror .cm-meta { color: #F0F; }
-.CodeMirror .cm-variable-2, .cm-s-rubyblue span.cm-tag { color: #7BD827; }
-.CodeMirror .cm-variable-3, .cm-s-rubyblue span.cm-def { color: white; }
+.CodeMirror .cm-variable-2, .CodeMirror span.cm-tag { color: #7BD827; }
+.CodeMirror .cm-operator, .CodeMirror .cm-variable-3, .CodeMirror .cm-variable, .CodeMirror .cm-def { color: white; }
 .CodeMirror .cm-bracket { color: #F0F; }
 .CodeMirror .cm-link { color: #F4C20B; }
 .CodeMirror .CodeMirror-matchingbracket { color:#F0F !important; background-color: transparent; }
-.CodeMirror .cm-builtin, .cm-s-rubyblue span.cm-special { color: #FF9D00; }
+.CodeMirror .cm-builtin, .CodeMirror span.cm-special { color: #FF9D00; }
 .CodeMirror .cm-error { color: #AF2018; }
 
 .CodeMirror .CodeMirror-activeline-background {background: #173047 !important;}
