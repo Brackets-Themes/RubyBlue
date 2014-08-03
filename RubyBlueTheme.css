@@ -40,7 +40,7 @@
 .CodeMirror .cm-variable-3, .cm-s-rubyblue span.cm-def { color: white; }
 .CodeMirror .cm-bracket { color: #F0F; }
 .CodeMirror .cm-link { color: #F4C20B; }
-.CodeMirror .CodeMirror-matchingbracket { color:#F0F !important; }
+.CodeMirror .CodeMirror-matchingbracket { color:#F0F !important; background-color: transparent; }
 .CodeMirror .cm-builtin, .cm-s-rubyblue span.cm-special { color: #FF9D00; }
 .CodeMirror .cm-error { color: #AF2018; }
 
