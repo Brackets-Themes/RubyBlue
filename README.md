@@ -1,5 +1,3 @@
-# We are aware that Ruby Blue does not currenly work in sprint 42 due to some recent changes, a fix will be available shorthly.
-
 Ruby Blue Brackets Theme
 ==========================
 
@@ -13,7 +11,7 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 Troubleshooting
 ==========================
 1. Things look "weird"
-	1. Try hitting F5 (Save changes before doing so!).
+    1. Try hitting F5 (Save changes before doing so!).
 1. [Open an issue](https://github.com/Brackets-Themes/RubyBlue/issues) if you need personal assistance.
 
 
