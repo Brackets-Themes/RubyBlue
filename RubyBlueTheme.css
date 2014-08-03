@@ -38,7 +38,7 @@
 .CodeMirror .cm-string { color: #F08047; }
 .CodeMirror .cm-meta { color: #F0F; }
 .CodeMirror .cm-variable-2, .CodeMirror span.cm-tag { color: #7BD827; }
-.CodeMirror .cm-operator, .CodeMirror .cm-variable-3, .CodeMirror .cm-variable, .CodeMirror .cm-def { color: white; }
+.CodeMirror .cm-qualifier, .CodeMirror .cm-operator, .CodeMirror .cm-variable-3, .CodeMirror .cm-variable, .CodeMirror .cm-def { color: white; }
 .CodeMirror .cm-bracket { color: #F0F; }
 .CodeMirror .cm-link { color: #F4C20B; }
 .CodeMirror .CodeMirror-matchingbracket { color:#F0F !important; background-color: transparent; }
