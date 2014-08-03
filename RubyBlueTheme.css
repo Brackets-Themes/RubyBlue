@@ -65,7 +65,7 @@
     border-left: 1px solid #fff !important;
 }
 .CodeMirror .CodeMirror-matchingbracket {
-    color: #F0F !important;
+    color: #fff !important;
     background-color: transparent;
 }
 .CodeMirror-matchingtag {
