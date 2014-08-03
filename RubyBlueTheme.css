@@ -46,7 +46,9 @@
 
 .CodeMirror .CodeMirror-activeline-background {background: #173047 !important;}
 
-
+.CodeMirror .cm-property {
+    color: white;
+}
 
 /* Code Styling */
 
