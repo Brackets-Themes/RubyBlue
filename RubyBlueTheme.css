@@ -4,47 +4,54 @@
 * Licensed under MIT
 */
 
-/* Overall Colors */
-/*@background: #112435;
-@brightgreen: #7BD827;
-@comment: #999;
-@foreground: #fff;
-@rb-blue: #3e7087;
-@rb-darkblue: #16314a;
-@rb-lightblue: #82C6E0;
-@rb-magenta: #f0f;
-@rb-orange: #F08047;
-@rb-pink: #d85896;
-@rb-red: #dc322f;
-@rb-violet: #6c71c4;
-@rb-yellow: #F4C20B;
-@rb-white: #fff;*/
-
 .CodeMirror .CodeMirror-scroll {
     background-color: #112435;
     color: #fff;
 }
-.cm-meta                      { color: #F0F; }
-.cm-comment                   { color: #999; }
-.cm-atom                      { color: #F4C20B; }
-.cm-number                    { color: #82C6E0; }
-.cm-attribute                 { color: #66D9EF; }
-.cm-property                  { color: #66D9EF; }
-.cm-keyword                   { color: #f0f; }
-.cm-string                    { color: #F08047; }
-.cm-string.cm-property        { color: #F8F8F2; }
-.cm-variable                  { color: #fff}
-.cm-variable-2                { color: #7BD827; }
-.cm-variable-3                { color: #fff}
-.cm-qualifier                 { color: #fff}
-.cm-def                       { color: #fff}
-.cm-bracket                   { color: #f0f}
-.cm-operator                  { color: #fff}
-.cm-tag                       { color: #7BD827; }
-.cm-link                      { color: #F4C20B; }
-.cm-error                     { color: #AF2018 !important; } /*Not sure why this !important has to be here.*/
-.cm-builtin                   { color: #FF9D00; }
-.cm-special                   { color: #FF9D00; }
+
+.cm-comment {
+color:#999;
+}
+
+.cm-number {
+color:#82c6e0;
+}
+
+.cm-string {
+color:#f08047;
+}
+
+.cm-string.cm-property {
+color:#f8f8f2;
+}
+
+.cm-error {
+color:#af2018!important;
+}
+
+.cm-meta,.cm-keyword,.cm-bracket {
+color:#f0f;
+}
+
+.cm-atom,.cm-link {
+color:#f4c20b;
+}
+
+.cm-attribute,.cm-property {
+color:#66d9ef;
+}
+
+.cm-variable,.cm-variable-3,.cm-qualifier,.cm-def,.cm-operator {
+color:#fff;
+}
+
+.cm-variable-2,.cm-tag {
+color:#7bd827;
+}
+
+.cm-builtin,.cm-special {
+color:#ff9d00;
+}
 
 .CodeMirror .CodeMirror-selected {
     background: #38566F !important;
@@ -54,116 +61,36 @@
     border-right: 7px solid #3E7087;
 }
 .CodeMirror .CodeMirror-linenumber {
-    color: white;
+    color: #fff;
 }
 .CodeMirror .CodeMirror-cursor {
-    border-left: 1px solid white !important;
+    border-left: 1px solid #fff !important;
 }
 .CodeMirror .CodeMirror-matchingbracket {
     color: #F0F !important;
     background-color: transparent;
 }
+.CodeMirror-matchingtag {
+    color:#fff;
+    background:rgba(255,255,255,0.2);
+}
 .CodeMirror .CodeMirror-activeline-background {
     background: #173047 !important;
 }
 
-
-/* Code Styling */
-
-/* code accent colors */
-/*@accent-keyword: @rb-magenta;
-@accent-atom: @rb-yellow;
-@accent-number: @rb-lightblue;
-@accent-def: @rb-white;
-@accent-variable: @foreground;
-@accent-variable-2: @brightgreen;
-@accent-variable-3: @rb-white;
-@accent-property: @rb-white;
-@accent-operator: @foreground;
-@accent-comment: @comment;
-@accent-string: @rb-orange;
-@accent-string-2: @rb-orange;
-@accent-meta: @rb-magenta;
-@accent-error: @rb-red;
-@accent-qualifier: @rb-white;
-@accent-builtin: #FF9D00;
-@accent-bracket: @rb-magenta;
-@accent-tag: @brightgreen;
-@accent-attribute: @rb-lightblue;
-@accent-header: @rb-pink;
-@accent-quote: @rb-blue;
-@accent-hr: @rb-orange;
-@accent-link: @rb-yellow;
-@accent-rangeinfo: @rb-violet;
-@accent-minus: @rb-red;
-@accent-plus: @rb-lightblue;*/
-
-/* Selection colors */
-/*@selection-color-focused: #133c53;
-@selection-color-unfocused: #424242;
-
-@activeline-bgcolor: lighten(@background, 10%);
-@activeline-number-bgcolor: lighten(@background, 5%);
-@matching-bracket: transparent;*/
-
-/* Status Bar Colors */
-/*@status-bar-background-color: @rb-darkblue;
-@status-bar-border: rgba(255, 255, 255, 0.08);
-@status-bar-text-color: @foreground;
-@status-bar-quiet-text-color: #666;*/
-
-/* Extra CSS */
-/*
-
-.code-cursor() {
-    to make a block cursor, use something like this:
-        background-color: fadeout(@rb-blue, 50%);
-    border: none !important;
-
-    to make an I-cursor, use something like this:
-    border-left: 1px solid @content-color !important;
+&.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 #000;
 }
 
-.CodeMirror .CodeMirror-gutters {
-    background: #1F4661;
-    border-right: 7px solid @rb-blue;
-}
-
-.CodeMirror-linenumber{
-    color: @foreground;
-}
-
-.CodeMirror-lines {
-    padding: 15px 0 0 7px;
-    pointer-events: none;
-}
-.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-    color: @comment;
-}
-
-#status-bar {
-    background: @status-bar-background-color;
-    border-top: 1px solid @status-bar-border;
-    color:@status-bar-text-color;
-}
-
-#status-info {
-    color: @status-bar-text-color;
-}
-
-#status-file {
-    color: @status-bar-quiet-text-color;
-}
-
-#status-indicators {
-    background: @status-bar-background-color;
-    color: @status-bar-text-color;
-
-    > div {
-        border-left: 1px solid @status-bar-border;
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background:rgba(255,255,255,0.2);
+        color: #fff;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: #999;
     }
 }
-*/
 
 /* Non-editor styling */
 
