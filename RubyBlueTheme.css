@@ -72,6 +72,10 @@
     color: #fff;
     background: rgba(255, 255, 255, 0.2);
 }
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #af2018;
+}
 .CodeMirror .CodeMirror-activeline-background {
     background: #173047 !important;
 }
