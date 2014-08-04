@@ -28,11 +28,11 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
 The following screen shots were not taken on a clean install but instead using some of the recommended extensions above.
 
-### HTML ###
+### HTML
 ![RubyBlue html](ss/rb-html.png)
 
-### CSS ###
+### CSS
 ![RubyBlue css](ss/rb-css.png)
 
-### JavaScript ###
+### JavaScript
 ![RubyBlue js](ss/rb-js.png)
