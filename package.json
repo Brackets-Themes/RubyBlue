@@ -1,5 +1,5 @@
 {
-    "title": "Ruby Blue",
+    "title": "Ruby Blue Less DEV version",
     "name": "ruby-blue",
     "description": "Ruby Blue is a dark, high contrast theme, that is easy to read.",
     "version": "1.1.1",
@@ -21,7 +21,7 @@
         "brackets": ">=0.42.0"
     },
     "theme": {
-        "file": "RubyBlueTheme.css",
+        "file": "RubyBlueTheme.less",
         "dark": true
     },
     "screenshot": "ss/rb-js.PNG"
