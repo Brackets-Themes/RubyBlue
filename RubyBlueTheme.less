@@ -1,8 +1,23 @@
 /**
 * Theme RubyBlue Copyright (c) 2014 Eric Johnson
-*
 * Licensed under MIT
 */
+
+/* Overall Colors */
+@background: #112435;
+@brightgreen: #7BD827;
+@comment: #999;
+@foreground: #fff;
+@rb-blue: #3e7087;
+@rb-darkblue: #16314a;
+@rb-lightblue: #82C6E0;
+@rb-magenta: #f0f;
+@rb-orange: #F08047;
+@rb-pink: #d85896;
+@rb-red: #dc322f;
+@rb-violet: #6c71c4;
+@rb-yellow: #F4C20B;
+@rb-white: #fff;
 
 .CodeMirror {
     .CodeMirror-scroll {
@@ -73,22 +88,18 @@
         border-bottom: 1px solid #af2018;
     }
 }
-&.show-line-padding {
-    .CodeMirror-focused {
-        .CodeMirror-activeline-background {
-            box-shadow: inset 15px 0 0 0 #000;
-        }
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: rgba(255, 255, 255, 0.2);
+        color: #fff;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: #999;
     }
 }
-.CodeMirror-focused {
-    .CodeMirror-activeline {
-        .CodeMirror-gutter-elt;
-    }
-}
-background: rgba(255, 255, 255, 0.2);color: #fff; {
-    .inline-widget .CodeMirror-gutter-elt;
-}
-#image-holder,#not-editor {
+/* Non-editor styling */
+#image-holder,
+#not-editor {
     background-color: #112435;
 }
 #image-holder {
