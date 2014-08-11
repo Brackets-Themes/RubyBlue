@@ -2,7 +2,7 @@
     "title": "Ruby Blue",
     "name": "ruby-blue",
     "description": "Ruby Blue is a dark, high contrast theme, that is easy to read.",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "author": "Eric Johnson <wormeyman@gmail.com>",
     "homepage": "https://github.com/Brackets-Themes/RubyBlue",
     "keywords": [
@@ -21,7 +21,7 @@
         "brackets": ">=0.42.0"
     },
     "theme": {
-        "file": "RubyBlueTheme.css",
+        "file": "RubyBlueTheme.less",
         "dark": true
     },
     "screenshot": "ss/rb-js.PNG"

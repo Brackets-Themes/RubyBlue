@@ -1,0 +1,115 @@
+/**
+* Theme RubyBlue Copyright (c) 2014 Eric Johnson
+* Licensed under MIT
+*/
+
+/* Overall Colors */
+    @background: #112435;
+    @brightgreen: #7BD827;
+    @comment: #999;
+    @rb-blue: #3e7087;
+    @rb-darkblue: #16314a;  /* Currently Unused */
+    @rb-lightblue: #82C6E0;
+    @rb-magenta: #f0f;
+    @rb-orange: #F08047;
+    @rb-pink: #d85896;      /* Currently Unused */
+    @rb-red: #af2018;
+    @rb-violet: #6c71c4;    /* Currently Unused */
+    @rb-yellow: #F4C20B;
+    @rb-white: #fff;
+
+.CodeMirror {
+    .CodeMirror-scroll {
+        background-color: @background;
+        color: @rb-white;
+    }
+    .CodeMirror-selected {
+        background: lighten(@background, 20%);
+    }
+    .CodeMirror-gutters {
+        background: lighten(@background, 13%);
+        border-right: 7px solid @rb-blue;
+    }
+    .CodeMirror-linenumber {
+        color: @rb-white;
+    }
+    .CodeMirror-cursor {
+        border-left: 1px solid @rb-white !important;
+    }
+    .CodeMirror-matchingbracket {
+        color: @rb-magenta !important;
+        background-color: transparent;
+    }
+    .CodeMirror-activeline-background {
+        background: lighten(@background, 5%);
+    }
+    .CodeMirror-searching {
+        background-color: fade(@rb-orange, 90%);
+        border: 1px dashed white;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        color: @rb-white !important;
+        .searching-current-match {
+            background-color: @rb-red;
+        }
+    }
+}
+.cm-comment {
+    color: @brightgreen;
+}
+.cm-number {
+    color: @rb-lightblue;
+}
+.cm-string {
+    color: @rb-orange;
+}
+.cm-string.cm-property {
+    color: @rb-white;
+}
+.cm-error {
+    color: @rb-red !important;
+}
+.cm-meta,.cm-keyword,.cm-bracket {
+    color: @rb-magenta;
+}
+.cm-atom,.cm-link {
+    color: @rb-yellow;
+}
+.cm-attribute,.cm-property {
+    color: #66d9ef;
+}
+.cm-variable,.cm-variable-3,.cm-qualifier,.cm-def,.cm-operator {
+    color: @rb-white;
+}
+.cm-variable-2,.cm-tag {
+    color: @brightgreen;
+}
+.cm-builtin,.cm-special {
+    color: #ff9d00;
+}
+.CodeMirror-matchingtag {
+    color: @rb-white;
+    background: rgba(255, 255, 255, 0.2);
+}
+.CodeMirror-overwrite {
+    .CodeMirror-cursor {
+        border-left: none !important;
+        border-bottom: 1px solid @rb-red;
+    }
+}
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: rgba(255, 255, 255, 0.2);
+        color: @rb-white;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: @brightgreen;
+    }
+}
+/* Non-editor styling */
+#image-holder,
+#not-editor {
+    background-color: @background;
+}
+#image-holder {
+    color: @rb-white;
+}
