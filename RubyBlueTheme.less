@@ -54,7 +54,7 @@
     background-color: @rb-red;
 }
 .cm-comment {
-    color: @brightgreen;
+    color: @comment;
 }
 .cm-number {
     color: @rb-lightblue;
@@ -106,14 +106,20 @@
     }
 }
 /* Non-editor styling */
-#not-editor,
 .not-editor {
     background-color: @background !important;
     background-image: url('images/no_content_bg.svg') !important;
     transition: background-color .3s ease-out;
 }
-#image-holder,
 .image-view {
     background-color: @background !important;
     background-image: none !important;
+}
+/* Plugin Custom Styling */
+/* Spell Check https://github.com/couzteau/SpellCheck */
+span.underline,
+span.SpellCheckUnderline
+{
+    border-bottom: dotted 1px white;
+    background-color: @rb-magenta;
 }
