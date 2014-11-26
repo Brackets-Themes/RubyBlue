@@ -13,6 +13,10 @@
 
 Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
+# Changes
+
+Visit [The Releases Page](https://github.com/Brackets-Themes/RubyBlue/releases) to see what has changed between versions.
+
 # Troubleshooting
 
 1. Things look "weird"
