@@ -13,7 +13,7 @@
 
 Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
-# Changes
+# Change Log
 
 Visit [The Releases Page](https://github.com/Brackets-Themes/RubyBlue/releases) to see what has changed between versions.
 
