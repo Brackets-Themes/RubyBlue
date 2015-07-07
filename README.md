@@ -6,7 +6,7 @@
 
 
 * [Show Whitespace](https://github.com/DennisKehrig/brackets-show-whitespace)
-* [Whitespace Normalizer](https://github.com/dsbonev/whitespace-normalizer)
+* [White Space Sanitizer](https://github.com/MiguelCastillo/Brackets-wsSanitizer)
 * [Show Git Branch for project](https://github.com/couzteau/brackets-git-info)
 
 # Installation
